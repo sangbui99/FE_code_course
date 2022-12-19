@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="name" thuoctinh = "demo">Demo 1</p>
+    <p id="name2" >Demo 2</p>
+    <form action="">
+        <label for="">Age</label>
+        <input type="number" min="3" max="7">
+
+        <label for="name">Name</label>
+        <input id="name" required>
+
+        <button type="submit">Create</button>
+    </form>
+
+    <form action="">
+        <input id="email" type="text" onchange="checkSubmit()">
+        <button >Click</button>
+        <!-- <button onclick="checkSubmit()">Click</button> có thể dùng onclick="checkSubmit()" thay cho onchange="checkSubmit()" -->
+    </form>
+    <script src = "demo.js"></script>
+    <script src = "regex.js"></script>
+</body>
+</html>
